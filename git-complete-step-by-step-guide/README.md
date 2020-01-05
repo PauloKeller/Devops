@@ -58,3 +58,64 @@ git mv <filename> <new-location>
 ```
 git ls-files
 ```
+
+- see history
+
+```
+git log
+```
+
+- see details from commit a
+
+```
+git show <commit-hash>
+```
+
+- abrrev history
+```
+git log --abbrev-commit
+```
+
+- history branching graph with decoration
+
+```
+git log --oneline --graph --decorate
+```
+
+- see history range based on hash
+```
+git log <hash$1> <hash$2>
+```
+
+- see history based on days
+```
+git log --since="3 days ago"
+```
+
+- see history based on a file 
+```
+git log -- <filename>
+```
+
+- see history based on a file  changes
+```
+git log --follow -- <path/filename>
+```
+
+- git alias *(command without git)
+
+```
+git config --global alias.hist "log --all --graph --decorate --oneline" 
+```
+
+- path to change alias 
+```
+~/.gitcofig
+```
+
+- git ignore pattern examples
+```
+specific file: MyFile.ext
+file pattern: *.ext
+folder: my-folder/
+```
