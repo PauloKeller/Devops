@@ -15,6 +15,11 @@ git add .
 git reset HEAD <filename>
 ```
 
+- discart changes in working dir
+```
+git checkout -- <filename>
+```
+
 - commit files to repository
 ```
 git commit 
@@ -27,4 +32,9 @@ git commit -m "message"
 
 ```
 git commit -am "message"
+```
+
+- move files
+```
+git mv <filename> <new-location>
 ```
