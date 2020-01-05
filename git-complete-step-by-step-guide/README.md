@@ -1,5 +1,11 @@
 # git commands
 
+# Config git file
+```
+~/.gitcofig
+```
+
+# Workflow 
 - add files to stage
 ```
 git add <filename>
@@ -45,6 +51,7 @@ git commit
 git commit -m "message"
 ```
 
+- adde all files to index then commit 
 ```
 git commit -am "message"
 ```
@@ -54,19 +61,19 @@ git commit -am "message"
 git mv <filename> <new-location>
 ```
 
+# History and logging
+
 - list tracking files
 ```
 git ls-files
 ```
 
 - see history
-
 ```
 git log
 ```
 
 - see details from commit a
-
 ```
 git show <commit-hash>
 ```
@@ -77,7 +84,6 @@ git log --abbrev-commit
 ```
 
 - history branching graph with decoration
-
 ```
 git log --oneline --graph --decorate
 ```
@@ -102,16 +108,14 @@ git log -- <filename>
 git log --follow -- <path/filename>
 ```
 
-- git alias *(command without git)
+# Git alias
 
+- git alias *(command without git)
 ```
 git config --global alias.hist "log --all --graph --decorate --oneline" 
 ```
 
-- path to change alias 
-```
-~/.gitcofig
-```
+# Git ignore
 
 - git ignore pattern examples
 ```
