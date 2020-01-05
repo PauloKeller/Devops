@@ -61,6 +61,11 @@ git commit -am "message"
 git mv <filename> <new-location>
 ```
 
+- push files from origin to remote
+```
+git push origin <branch>
+```
+
 # History and logging
 
 - list tracking files
