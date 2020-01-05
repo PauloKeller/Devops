@@ -10,6 +10,16 @@ git add <filename>
 git add . 
 ```
 
+- add files recursively and also update any files that are updated, deleted etc
+```
+git add -A
+```
+
+- add files and also update the file index for git understand the changes
+```
+git add -u
+```
+
 - back changes to working dir
 ```
 git reset HEAD <filename>
