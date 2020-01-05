@@ -20,6 +20,11 @@ git add -A
 git add -u
 ```
 
+- remove files
+```
+git rm <filename> 
+```
+
 - back changes to working dir
 ```
 git reset HEAD <filename>
@@ -47,4 +52,9 @@ git commit -am "message"
 - move files
 ```
 git mv <filename> <new-location>
+```
+
+- list tracking files
+```
+git ls-files
 ```
