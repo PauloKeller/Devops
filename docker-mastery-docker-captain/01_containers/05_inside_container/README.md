@@ -1,4 +1,4 @@
-# get inside a container
+# Get inside a container
 
 ```
 docker container run -it --name proxy nginx bash
