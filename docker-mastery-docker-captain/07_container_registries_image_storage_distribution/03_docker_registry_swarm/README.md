@@ -37,5 +37,10 @@ docker tag nginx 127.0.0.1:5000/nginx
 
 - push nginx
 ```
-docker push nginx 127.0.0.1:5000/nginx
+docker push 127.0.0.1:5000/nginx
+```
+
+- create nginx service 
+```
+docker service create --name nginx -p 80:80 --replicas 5 --detach=false 172.0.0.1:5000/nginx
 ```
