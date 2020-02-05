@@ -1,0 +1,11 @@
+node {
+    stage('Build') {
+        echo "Inside the build stage"
+    }
+    stage('Test') {
+        echo "Inside the test stage"
+    }
+    stage('Deploy') {
+        echo "Inside the deploy stage"
+    }
+}
